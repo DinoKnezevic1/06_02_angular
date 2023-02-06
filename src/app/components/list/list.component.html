@@ -1,0 +1,10 @@
+<!-- <div class="box">
+    <p>Id: 1</p>
+    <p>Name: Server Rooooom</p>
+</div> -->
+<div class="boxFlex">
+  <div class="box" *ngFor="let room of rooms"  (click)="navigateToDetails(room.id)">
+    id:{{ room.id }} name:{{ room.name }}
+  </div>
+</div>
+<!-- <p>list works!</p> -->

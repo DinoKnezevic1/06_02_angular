@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+}
+.boxFlex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.box{
+    background-color: dodgerblue;
+    width: 400px;
+    padding: 16px;
+    margin: 16px;
+    color: whitesmoke;
+    font-size: 2em;
+    border: 1px solid black;
+}
